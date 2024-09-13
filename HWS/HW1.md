@@ -408,3 +408,5 @@ Troubleshooting common errors:
 ### Q9
 
 Yes!!!!!!!!!!
+
+#### Quick Link to Chat:https://chatgpt.com/share/66e3a782-a14c-8004-a2a9-4a5a3260cba9

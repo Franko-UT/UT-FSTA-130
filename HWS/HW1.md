@@ -295,7 +295,7 @@ del commands are using to remove the data so it is simply removed as all things 
 
 ### Q8
 ## chat output
-### Initial ChatBot Session
+# Initial ChatBot Session
 
 ---
 
@@ -305,7 +305,7 @@ del commands are using to remove the data so it is simply removed as all things 
 
 ---
 
-### Understanding `df.groupby("col1")["col2"].describe()`
+# Understanding `df.groupby("col1")["col2"].describe()`
 
 **Explanation:**
 
@@ -315,7 +315,7 @@ The `df.groupby("col1")["col2"].describe()` method in pandas is used to generate
 2. **Column Selection**: The `["col2"]` selects the specific column for which you want to get the summary statistics.
 3. **Describe**: The `.describe()` function then computes summary statistics for the selected column (`col2`) within each group.
 
-### Example with Titanic Dataset
+# Example with Titanic Dataset
 
 Let's say we want to analyze the age distribution of passengers grouped by their class (`pclass`). The code would be:
 
@@ -334,7 +334,7 @@ print(age_description_by_class)
 
 **Explanation**: This code groups the Titanic dataset by passenger class (`pclass`) and provides descriptive statistics for the `age` column within each class. It helps in understanding how age varies across different passenger classes.
 
-### Differences in Count Values
+# Differences in Count Values
 
 - **`df.describe()`**: The count reported here represents the number of non-null values in each column across the entire DataFrame. If a column has missing values, the count will be less than the total number of rows.
 
@@ -342,7 +342,7 @@ print(age_description_by_class)
 
 **Fundamental Difference**: The count in `df.describe()` reflects the total non-null entries in the entire column, while `df.groupby("col1")["col2"].describe()` provides counts for each subgroup, which can show how missing values are distributed across different categories.
 
-### Troubleshooting Errors
+# Troubleshooting Errors
 
 1. **Forget to Include `import pandas as pd`**
 

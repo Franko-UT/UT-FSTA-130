@@ -169,3 +169,9 @@ print(win_rate)
 Overall, I prefer the simplified version for its clarity and conciseness, which makes it easier to explain and understand.
 
 ## Personal 
+As what it said basically the chatgpt is generating a great work.
+But more logically stuffs ahve been put into the code so that we may need a logical chat to proceed with the logically caculation.
+But the mount of the code and readability are also increased while the code has changed. Rather than the first one I would like the improved version.
+Also for can be replaced with while method to aviod using range()
+
+# Q3

@@ -403,7 +403,7 @@ Here's how I might describe the three data distribution visualization methods ba
 
 ### My Preference and Rationale
 
-I personally prefer **KDE plots** because:
+It would be prefered **KDE plots** because:
 1. They offer a **smooth, continuous view** of the data, which I find visually appealing and informative.
 2. They **clearly show the shape** of the distribution, especially for identifying multiple peaks (multimodality) or long tails, which can be missed in box plots or distorted in histograms.
 3. The **flexibility** in choosing bandwidth allows a better understanding of the overall trend, which can be very useful for making decisions about statistical assumptions.
